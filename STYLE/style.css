@@ -292,6 +292,7 @@ li a:hover::before{
     font-size: 24px;
     line-height: 34px;
     color: #2B292D;
+    font-weight: 400;
 }
  
 
@@ -391,6 +392,7 @@ li a:hover::before{
     font-size: 24px;
     line-height: 34px;
     color: #172342;
+    
 }
 
 
