@@ -101,19 +101,19 @@ li a:hover::before{
 }
 
 
-.section1{
+.question{
     padding: 77px 130px 76px;
     background-color:  #F4F5F7;;
 }
 
 
-.section1_wrapper{
+.question_wrapper{
     max-width: 555px;
     margin-right: 29px;
 }
 
 
-.section1_title{
+.question_title{
     font-weight: 700;
     font-size: 22px;
     line-height: 32px;
@@ -121,14 +121,14 @@ li a:hover::before{
 }
 
 
-.section1_text{
+.question_text{
     font-size: 22px;
     line-height: 32px;
     color: #2B292D;
 }
 
 
-.section2{
+.logos{
     padding: 30px 0 106px;
 }
 
@@ -198,11 +198,6 @@ li a:hover::before{
 }
 
 
-.info_pretitle-black{
-    color:#2B292D;
-}
-
-
 .info_title{
     font-size: 56px;
     line-height: 56px;
@@ -223,12 +218,12 @@ li a:hover::before{
 }
 
 
-.section5{
+.communicate{
     padding: 110px 0 105px;
 }
 
 
-.section5_box{
+.communicate_desc{
     max-width: 360px;
     width: 100%;
     height: 115px;
@@ -236,37 +231,38 @@ li a:hover::before{
 }
 
 
-.section5_text{
+.communicate_text{
     font-size: 18px;
     line-height: 26px;
     color: #2B292D;
 }
 
 
-.section5_text-bold{
+.communicate_text-bold{
     font-weight: 700;
 }
 
 
-.section5_link{
+.communicate_link{
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-    color: #3142C6;   
+    color: #3142C6;  
+    line-height:36px; 
 }
 
 
-.section6{
-    background-color:rgba(0, 161, 198, 0.25) ;
+.engage{
+    background-color:rgba(0, 161, 198, 0.07) ;
 }
 
 
-.section6_text{
+.engage_text{
     text-align: center;
 }
 
 
- .section6_text1{
+.engage_text1{
     font-size: 22px;
     line-height: 34px;
     color: #2B292D;
@@ -275,7 +271,7 @@ li a:hover::before{
 } 
 
 
-.section6_text2{
+.engage_text2{
     max-width: 555px;
     margin: 24px auto 30px;
     font-size: 56px;
@@ -286,7 +282,7 @@ li a:hover::before{
 }
 
 
-.section6_text3{
+.engage_text3{
     max-width: 555px;
     margin: 0px auto 34px;
     font-size: 24px;
@@ -296,12 +292,12 @@ li a:hover::before{
 }
  
 
-.section6_button{
+.engage_button{
     justify-content: center;
 }
 
 
- .section6_button1, .section6_button2{
+.engage_button1, .engage_button2{
     width: 160px;
     height: 48px;
     border: none;
@@ -312,7 +308,7 @@ li a:hover::before{
 }  
 
 
- .section6_button1{
+ .engage_button1{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     margin-right: 10px;
@@ -320,44 +316,45 @@ li a:hover::before{
 } 
 
 
-.section6_button2{
+.engage_button2{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
 
-.section6_grid{
+.engage_grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
 
-.section6_item{
+.engage_item{
     width: 262px;
     height: 300px;
     border-radius: 8px;
     margin: 111px 0 110px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), rgba(255, 255, 255, 0.9);
     background-blend-mode: overlay, normal;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     text-align: center;
 }
 
 
-.section6_item:hover{
+.engage_item:hover{
     cursor: pointer;
     transition: 1s;
     background: #3141C5;
     box-shadow: 0px 13px 18px -8px rgba(0, 0, 0, 0.15), 0px 11px 55px 10px rgba(0, 0, 0, 0.07);
+    color: #FFFFFF;
 } 
 
 
-.item_img{
+.engage_item_img{
    margin: 22px 0 22px ;   
-}
+} 
 
 
-.item_text{
+.engage_item_text{
     font-size: 22px;
     line-height: 28px;
     text-align: center;
@@ -366,19 +363,19 @@ li a:hover::before{
 }
 
 
-.item_text:hover {
+.engage_item_text:hover {
     cursor: pointer;
     transition: 1s;
     color: #FFFFFF;
-}
+}  
 
 
-.section9_text{
+.surfaces_text{
     text-align: center;
 }
 
 
-.section9_text1{
+.surfaces_text1{
     font-weight: 700;
     font-size: 56px;
     line-height: 66px;
@@ -386,7 +383,7 @@ li a:hover::before{
 }
 
 
-.section9_text2{
+.surfaces_text2{
     max-width: 554px;
     margin: 26px auto 97px;
     font-size: 24px;
@@ -396,7 +393,7 @@ li a:hover::before{
 }
 
 
-.section9_grid{
+.surfaces_grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
