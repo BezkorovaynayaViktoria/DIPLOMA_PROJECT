@@ -94,7 +94,7 @@ li a:hover::before{
 }
 
 
-.button:hover, .section6_button1:hover, .section6_button2:hover{
+.button:hover, .engage_button1:hover, .engage_button2:hover{
     cursor: pointer;
     transition: 1s;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%),  #638cf3;
@@ -308,7 +308,7 @@ li a:hover::before{
 }  
 
 
- .engage_button1{
+.engage_button1{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     margin-right: 10px;
